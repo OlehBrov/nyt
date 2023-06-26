@@ -1,27 +1,32 @@
 {
-  "name": "parcel-project-template",
+  "name": "nyt",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://olehbrov.github.io/nyt",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /nyt/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/olehbrov/nyt.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Oleh Dudnyk <o.dudnyk85@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/olehbrov/nyt/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "axios": "^1.4.0",
+    "gh-pages": "^5.0.0",
+    "js-datepicker": "^5.18.2",
+    "modern-normalize": "^1.1.0",
+    "tui-pagination": "^3.4.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"

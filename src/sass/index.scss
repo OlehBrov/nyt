@@ -1,2 +1,10 @@
 @import './common';
-@import './example';
+@import './generalStyles';
+@import './header';
+@import './newsGallery';
+@import './sections';
+@import './readPage';
+@import './utils/resize';
+@import './weather';
+@import './pagination';
+@import '~js-datepicker/src/datepicker';
