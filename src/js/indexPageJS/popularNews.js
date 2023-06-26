@@ -18,6 +18,7 @@ import {
 export const ICON_HEART = '/sprite.f14d31f7.svg#icon-heart';
 
 export const newsGalleryMarkup = async () => {
+  console.log('gallery markup')
   const { results } = await getNews('/svc/mostpopular/v2/viewed/1.json');
   mainPageMarkup(results);
   if (
