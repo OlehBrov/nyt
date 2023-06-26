@@ -24,6 +24,7 @@ if (
   window.location.pathname === '/' ||
   window.location.pathname === '/index.html'
 ) {
+  console.log('window.location', window.location)
   newsGalleryMarkup();
   refs.categoriesList.addEventListener('change', sectionsHandler);
   currentPageLinkStyler('home');
