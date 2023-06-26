@@ -18,6 +18,8 @@ import { errorCallback, successCallback } from './js/services/getUserPosition';
 import { picker } from './js/utils/datePicker';
 import { currentPageLinkStyler } from './js/utils/currentPageLinkStyler';
 
+console.log('window.location', window.location)
+
 if (
   window.location.pathname === '/' ||
   window.location.pathname === '/index.html'
